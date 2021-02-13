@@ -11,8 +11,12 @@ public class FirstTest {
         displayHigh(ship);
 
     }
-    public static void displayHigh(StarShip ourShip) {
-        System.out.println("Высота корабля составляет : "+ourShip.shipHeight);
+    public static void displayHigh(StarShip ship) {
+        System.out.println("Высота корабля составляет : "+ getStarShipHeight(ship));
+    }
+
+    public static double getStarShipHeight(StarShip ship) {
+        return ship.shipHeight;
     }
 
 }
