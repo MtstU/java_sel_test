@@ -9,11 +9,8 @@ public class FirstTest {
 
     }
     public static void displayHigh(StarShip ship) {
-        System.out.println("Высота корабля составляет : "+ getStarShipHeight(ship));
+        System.out.println("Высота корабля составляет : "+ ship.getShipHeight());
     }
 
-    public static double getStarShipHeight(StarShip ship) {
-        return ship.shipHeight;
-    }
 
 }

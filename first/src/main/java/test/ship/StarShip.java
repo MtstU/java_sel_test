@@ -6,8 +6,15 @@ public class StarShip {
     public double shipHeight;
 
     //добавляем консруктор для корабля
+    //сеттер- устанавливает значение
+
     public StarShip(double shipHeight) {
         this.shipHeight = shipHeight;
     }
 
+    //геттер - возвращает значение
+
+    public double getShipHeight() {
+        return this.shipHeight;
+    }
 }
