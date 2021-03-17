@@ -1,4 +1,8 @@
 test/ship/StarShip.java
  test.ship.StarShip
+JavaRush/Artifact.java
+ JavaRush.Artifact
 FirstTest.java
  FirstTest
+JavaRush/User.java
+ JavaRush.User
