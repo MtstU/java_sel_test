@@ -6,3 +6,5 @@ FirstTest.java
  FirstTest
 JavaRush/User.java
  JavaRush.User
+JavaRush/User.java
+ JavaRush.User
